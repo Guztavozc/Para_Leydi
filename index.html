@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>100 Razones Por Las Que Te Amo ❤️</title>
+
+    <link rel="icon" href="assets/images.jpeg">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Fondo de corazones -->
+    <div class="hearts" id="hearts"></div>
+
+    <!-- Pantalla de carga -->
+    <div id="loader">
+
+        <img src="assets/images.jpeg" class="loader-heart">
+
+        <h2>Preparando una pequeña sorpresa...</h2>
+
+    </div>
+
+    <!-- Contenedor -->
+    <div class="container" id="container">
+
+        <!-- Bienvenida -->
+        <section id="welcome">
+
+            <img src="assets/images.jpeg" class="heart">
+
+            <h1>Hola, Leydi ❤️</h1>
+
+            <p>
+
+                Hay algo que preparé únicamente para ti.
+
+                No es un regalo cualquiera...
+
+                Es una pequeña parte de todo lo que siento por ti.
+
+            </p>
+
+            <button id="startBtn" class="btn">
+
+                Comenzar ❤️
+
+            </button>
+
+        </section>
+
+        <!-- Carta -->
+        <section id="intro" class="hidden">
+
+            <h2>Antes de empezar... 💌</h2>
+
+            <p>
+
+                Dicen que el destino une a las personas de las formas más inesperadas.
+
+                Yo nunca imaginé que un ensayo de tinkus me llevaría a conocer al amor de mi vida.
+
+                ❤️
+
+                <br><br>
+
+                Hoy quiero regalarte estas 100 pequeñas razones por las que te amo.
+
+                Espero que cada una te saque una sonrisa.
+
+            </p>
+
+            <button id="readBtn" class="btn">
+
+                Empezar ❤️
+
+            </button>
+
+        </section>
+
+        <!-- Razones -->
+        <section id="reasons" class="hidden">
+
+            <div class="progress">
+
+                <div class="progress-bar" id="progressBar"></div>
+
+            </div>
+
+            <h3 id="number">
+
+                Razón 1 de 100
+
+            </h3>
+
+            <div class="card">
+
+                <p id="reasonText"></p>
+
+            </div>
+
+            <button id="nextBtn" class="btn">
+
+                Siguiente ❤️
+
+            </button>
+
+        </section>
+
+        <!-- Final -->
+        <section id="final" class="hidden">
+
+            <h1>❤️ Llegaste al final ❤️</h1>
+
+            <p id="mensajeFinal" class="final-message"></p>
+
+            <br>
+
+            <div class="timer">
+
+                ❤️ Tiempo que llevamos juntos ❤️
+
+                <br><br>
+
+                <span id="loveTimer"></span>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- Música -->
+    <audio id="music" loop>
+
+        <source src="music/cancion.mp3" type="audio/mpeg">
+
+    </audio>
+
+    <!-- Razones -->
+    <script src="razones.js"></script>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
