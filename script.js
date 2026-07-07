@@ -477,22 +477,30 @@ function lluviaUltra(){
 // HUEVO DE PASCUA ❤️
 // ============================
 
-let clicks = 0;
+const ultimoBtn = document.getElementById("ultimoBtn");
+const ultimoMensaje = document.getElementById("ultimoMensaje");
+const reiniciarBtn = document.getElementById("reiniciarBtn");
 
-const corazon = document.querySelector(".heart");
+if (ultimoBtn) {
 
-if(corazon){
+    ultimoBtn.addEventListener("click", () => {
 
-corazon.addEventListener("click",()=>{
+        ultimoBtn.style.display = "none";
 
-clicks++;
+        ultimoMensaje.style.display = "block";
 
-if(clicks==5){
+        lluviaUltra();
 
-alert("❤️ Descubriste un pequeño secreto...\n\nGracias por leer cada parte de este regalo.\n\nTe amo muchísimo, Leydi. ❤️");
+    });
 
 }
 
-});
+if (reiniciarBtn) {
 
-}   
+    reiniciarBtn.addEventListener("click", () => {
+
+        location.reload();
+
+    });
+
+}
