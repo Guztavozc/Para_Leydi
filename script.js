@@ -295,6 +295,8 @@ nextBtn.addEventListener("click",()=>{
 const mensajeFinal = document.getElementById("mensajeFinal");
 
 function terminarHistoria(){
+    
+    document.body.style.overflowY = "auto";
 
     reasonsSection.style.display = "none";
 
