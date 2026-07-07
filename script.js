@@ -304,10 +304,6 @@ function terminarHistoria(){
 
     finalSection.classList.remove("hidden");
 
-    lluviaFinal();
-
-    escribirCarta();
-
 }
 
 // Carta final
@@ -490,6 +486,8 @@ if (ultimoBtn) {
         ultimoMensaje.style.display = "block";
 
         lluviaUltra();
+
+        escribirCarta();
 
     });
 
