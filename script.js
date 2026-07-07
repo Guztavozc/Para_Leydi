@@ -227,7 +227,7 @@ const loveTimer =
 document.getElementById("loveTimer");
 
 // CAMBIA ESTA FECHA
-const fechaInicio = new Date("2025-06-25");
+const fechaInicio = new Date("2026-06-25");
 
 function actualizarContador(){
 
@@ -317,33 +317,19 @@ Hola, mi amor... ❤️
 
 Si llegaste hasta aquí...
 
-Quiero darte las gracias.
+Quiero darte las gracias. Gracias por regalarme tantos momentos bonitos. Gracias por aparecer en mi vida.
 
-Gracias por regalarme tantos momentos bonitos.
+Nunca imaginé que un ensayo de tinkus iba a cambiar mi vida para siempre.
 
-Gracias por aparecer en mi vida.
+Pensé que este regalo serían solamente100 razones...
 
-Nunca imaginé que un ensayo de tinkus
-iba a cambiar mi vida para siempre.
+Pero la verdad... Te mentí un poquito.
 
-Pensé que este regalo serían solamente
-100 razones...
+No existen solamente 100 razones para amarte.
 
-Pero la verdad...
+Existen miles. Millones. Y aun así seguirían faltando.
 
-Te mentí un poquito.
-
-No existen solamente 100 razones
-para amarte.
-
-Existen miles.
-
-Millones.
-
-Y aun así seguirían faltando.
-
-Porque cada día encuentro una razón
-nueva para enamorarme de ti.
+Porque cada día encuentro una razón nueva para enamorarme de ti.
 
 Cuando sonríes.
 
@@ -382,7 +368,7 @@ Siempre tú.
 
 Con amor,
 
-Roger ❤️`;
+Guzi ❤️`;
 
     mensajeFinal.innerHTML = "";
 
